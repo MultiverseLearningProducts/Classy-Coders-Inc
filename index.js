@@ -5,7 +5,41 @@ const { SoftwareEngineer } = require("./classes/SoftwareEngineer")
 
 // Run and debug your code here
 
+class Employees {
+    #salary;
+    #isHired;
+    static #allEmployees;
+    constructor(name, title, salary, isHired) {
+        this.name = name; 
+        this.title = title; 
+        this.#salary = salary;
+        this.#isHired = isHired;
 
+    }
+
+    setSalary(amount) {
+
+    }
+
+    status(command) {
+
+    }
+
+    getEmployees(){
+
+    }
+
+    setEmployees(Employees){
+
+    }
+
+    getTotalPayrool(employees){
+        
+    }
+
+
+
+}
 
 
 
