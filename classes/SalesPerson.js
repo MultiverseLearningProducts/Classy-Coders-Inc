@@ -1,5 +1,5 @@
 class SalesPerson extends Employees {
-    totalSales = 0
+    #totalSales = 0
 
     constructor(name, position, salary, clients  = []) {
         super(name, position, salary)
@@ -7,11 +7,11 @@ class SalesPerson extends Employees {
     }
 
     getSalesNumbers() {
-        return this.totalSales
+        return this.#totalSales
     }
 
     makeSale(amount) {
-        this.totalSales += amount
+        this.#totalSales += amount
     }
 
     findClient(client) {
