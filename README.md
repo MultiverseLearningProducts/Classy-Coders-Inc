@@ -79,10 +79,10 @@ const malik = new SalesPerson("Malik", "Enterprise Sale Associate", 90000, ["Vin
 malik.getSalesNumbers(); // 0
 malik.makeSale(10500);
 malik.makeSale(20000);
-malik.getSalesNumbers(); // 30500
+malik.getSalesNumber(); // 30500
 ```
 
-## Updating `Employee` Class with Static Values
+## Updating `Employees` Class with Static Values
 - `allEmployees`: A **private** static private property that initializes as an empty array. Every time a new `Employee` is created they are added to the end of this array.
 - `getEmployees`: A static method that returns the array of `allEmployees`.
 - `getTotalPayroll()`: A static method that returns the total salaries of all employees that are stored in the `allEmployees` array.
