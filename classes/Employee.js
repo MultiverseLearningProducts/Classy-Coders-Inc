@@ -1,7 +1,7 @@
 class Employee {
 #salary
 #isHired
-constructor (name, position) {
+constructor (name, position, amount, hired) {
     this.name = name;
     this.position = position;
     this.#salary = amount;
@@ -18,10 +18,10 @@ getStatus(){
 }
 setStatus(command){
     if(command === 'hire'){
-        return true;
+        this.#isHired = true;
     } else if 
         (command === 'fire') {
-            return false;   } 
+            this.#isHired = false;   } 
 }
 }
 // hello
