@@ -93,8 +93,8 @@ const jenna = new Manager("Jenna", "Head of Engineers", 120000, "Software Engine
 const programmer = new SoftwareEngineer("Becca", "Senior Software Engineer", 100000, ["JavaScript", "Java", "Python"]);
 const malik = new SalesPerson("Malik", "Enterprise Sale Associate", 90000, ["Vine", "MySpace", "Shutterfly"])
 
-Employees.getEmployees(); // [ Manager { }, SoftwareEngineer { }, SalesPerson { }]
-Employees.getTotalSalary(); // 310000
+Employee.getEmployees(); // [ Manager { }, SoftwareEngineer { }, SalesPerson { }]
+Employee.getTotalSalary(); // 310000
 ```
 
 ## Stretch: Go Above and Beyond 🚀
